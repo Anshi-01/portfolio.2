@@ -1,0 +1,398 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    background-color: #0a0122;
+}
+
+.nav {
+    display: flex;
+    width: 100%;
+    margin: auto;
+    padding: 10px 0px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin-right: 30px;
+    margin-left: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #eff4ff;
+    font-weight: lighter;
+    margin-top: 10px;
+}
+
+nav ul li a:hover {
+    color: purple;
+}
+
+#name {
+    margin-right: 220px;
+    margin-left: 30px;
+    font-family: 'Helvetica Neue';
+    color: #eff4ff;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.Home {
+    padding-top: 160px;
+    padding-left: 30px;
+}
+
+.Home h1 {
+    font-size: 50px;
+    color: #eff4ff;
+    margin-bottom: 20px;
+    display: inline-block;
+}
+
+span {
+    color: purple;
+}
+
+#headline {
+    text-decoration: burlywood;
+    font-family: 'Helvetica Neue';
+    display: inline-block;
+}
+
+.Home p {
+    color: #eff4fd;
+    line-height: 22px;
+    display: inline-block;
+}
+
+.Home li {
+    text-decoration: none;
+    display: inline-block;
+}
+
+#image {
+    height: 400px;
+    width: 240px;
+    padding-left: 160px;
+    padding-top: px;
+    display: inline-block;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+ul {
+    display: inline-block;
+}
+
+.divabout {
+    padding-top: 40px;
+}
+
+
+
+.about h1 {
+    font-size: 50px;
+    color: #eff4ff;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    display: inline-block;
+    justify-content: space-around;
+    margin-left: 30px;
+}
+
+.about p {
+    color: #eff4fd;
+    line-height: 22px;
+    display: inline-block;
+    margin-left: 30px;
+    margin-bottom: 10px;
+}
+
+#edu {
+    font-size: 40px;
+    color: #eff4ff;
+    margin-bottom: 20px;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.education {
+    color: #eff4fd;
+}
+
+.education li {
+    margin-left: 40px;
+}
+
+.education a {
+    color: #eff4fd;
+}
+
+.education a:hover {
+    color: purple(216, 109, 207);
+}
+
+#college {
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 25px;
+}
+
+#course {
+    font-weight: 100;
+    margin-left: 20px;
+    color: #eff4fd;
+    font-size: 12px;
+}
+
+#cgpa {
+    font-weight: 100;
+    margin-left: 25px;
+    color: #eff4fd;
+    font-size: 12px;
+}
+
+#school {
+    text-decoration: none;
+    font-size: 25px;
+    margin-top: 20px;
+    font-weight: 700;
+}
+
+#subjects {
+    font-weight: 100;
+    margin-left: 20px;
+    color: #eff4fd;
+    font-size: 12px;
+}
+
+#percentage {
+    font-weight: 100;
+    margin-left: 25px;
+    color: #eff4fd;
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.skill h1 {
+    font-size: 50px;
+    color: #eff4ff;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    display: inline-block;
+    justify-content: space-around;
+    margin-left: 30px;
+}
+
+
+
+.FD {
+    display: inline-block;
+    margin-left: 200px;
+    border-color: gray;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 2%;
+    color: #eff4fd;
+}
+
+.FD:hover{
+    background: burlywood;
+    transform: translateY(-10px);
+    transition: background 0.5s, transform 0.5s;
+}
+
+
+
+#FDHEAD1 {
+    font-size: 15px;
+    margin-top: 20px;
+    font-weight: 700;
+    color: purple;
+    background: none;
+}
+
+#FDHEAD2 {
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: 130px;
+    font-weight: 700;
+    color: purple;
+    background: none;
+}
+
+#FDHEAD3 {
+    font-size: 15px;
+    margin-top: 20px;
+    margin-left: 100px;
+    font-weight: 700;
+    color: purple;
+    background: none;
+}
+
+#FDHEAD4 {
+    font-size: 15px;
+    margin-top: 20px;
+    font-weight: 700;
+    color: purple;
+    background: none;
+}
+
+.skill a {
+    text-decoration: none;
+    font-size: 12px;
+    margin-bottom: 20px;
+    color: darkgray;
+    margin-left: 10px;
+    background: none;
+}
+
+.FD p {
+    margin-left: 10px;
+    margin-right: 10px;
+    background: none;
+}
+
+
+
+.project h1 {
+    font-size: 50px;
+    color: #eff4ff;
+    margin-bottom: 40px;
+    margin-top: 50px;
+    display: inline-block;
+    justify-content: space-around;
+    margin-left: 30px;
+}
+
+.project {
+    border-color: #eff4fd27;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 2%;
+    margin-top: 200px;
+    width: 97%;
+}
+
+#see{
+    border-color: rgba(128, 128, 128, 0.185);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 4%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    cursor: grab;
+}
+
+#see a{
+    text-decoration: none;
+    margin-left: 10px;
+    color: darkgrey;
+}
+
+#see a:hover{
+    text-decoration: underline;
+    color: purple;
+}
+
+#more {
+    margin-left: 400px;
+    margin-right: 450px;
+    margin-bottom: 30px;
+}
+
+.project p {
+    color: #eff4fd;
+    margin-left: 20px;
+    font-size: 20;
+}
+
+.project p a {
+    text-decoration: none;
+    color: purple;
+}
+
+.project p a:hover {
+    text-decoration: underline;
+}
+
+.contact {
+    border-color: #eff4fd18;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 2%;
+    margin-top: 200px;
+    width: 97%;
+}
+
+.contact h1 {
+    font-size: 50px;
+    color: #eff4ff;
+    margin-bottom: 40px;
+    margin-top: 50px;
+    display: inline-block;
+    justify-content: space-around;
+    margin-left: 30px;
+}
+
+.contact li {
+    color: #eff4fd;
+    margin-left: 20px;
+    font-size: 20;
+    margin-bottom: 50px;
+}
+
+.contact li a {
+    text-decoration: none;
+    color: purple;
+}
+
+.contact li a:hover {
+    text-decoration: underline;
+}
+
+.contact li span:hover {
+    text-decoration: underline;
+}
+
+.contact p{
+    color: #eff4fd;
+    margin-left: 300px;
+}
+
+.contact textarea{
+    text-decoration: none;
+    color: gray;
+    margin-left: 300px;
+    width: 300px;
+}
+
+#submit{
+    height: 30px;
+    width: 70px;
+    margin-left: 300px;
+    background-color: purple;
+    color: white;
+    margin-bottom: 50px;
+}
+
+.copyright {
+    width: 100%;
+    text-align: center;
+    padding: 14px 0;
+    background: #262626;
+    color: gray;
+    font-weight: 300;
+    margin-top: 10px;
+}
+
+.copyright p{
+    background: none;
+}
